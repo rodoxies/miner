@@ -1,0 +1,5 @@
+GPU
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.65a/lolMiner_v1.65a_Lin64.tar.gz && tar -xf lolMiner_v1.65a_Lin64.tar.gz && cd 1.65 && ./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user USDT:TSSxhMwhjXP286rptKnpdefwGb1XQbFYEk.CO --ethstratum ETHPROXY
+CPU
+wget https://github.com/xmrig/xmrig/releases/download/v6.18.1/xmrig-6.18.1-linux-x64.tar.gz && tar -xf xmrig-6.18.1-linux-x64.tar.gz && cd xmrig-6.18.1 && ./xmrig -o stratum+ssl://rx.unmineable.com:443 -a rx -k -u USDT:TSSxhMwhjXP286rptKnpdefwGb1XQbFYEk.CO -p x
+pause 
